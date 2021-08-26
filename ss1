@@ -1,0 +1,58 @@
+import React,{useState, useEffect} from 'react';
+import {Nav, Navbar, Container, NavDropdown} from 'react-bootstrap'
+import './navbar.css'
+import logo from './images/navlogo.png'
+import { useRef } from 'react';
+import { Link } from 'react-scroll';
+
+function Navbarss() {
+
+  const [navBackground, setNavBackground] = useState(false)
+  const navRef = useRef()
+  navRef.current = navBackground
+  useEffect(() => {
+    const handleScroll = () => {
+      const show = window.scrollY > 430
+      if (navRef.current !== show) {
+        setNavBackground(show)
+      }
+    }
+    document.addEventListener('scroll', handleScroll)
+    return () => {
+      document.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
+    return (
+  <>
+  <nav className='sticky-top linear-gradient-nav'>
+  <Navbar expand="lg" fixed="top" style={{ transition: '1s ease',backgroundColor: navBackground ? '#000000bf' : 'transparent'}}>
+   <Container className='floating-nav'>
+    <Navbar.Brand><Link className='navbar-brand' to='homepage'><img src={logo} width="150px" alt="" /></Link></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-dark custom-toggle-icon" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="ms-auto">
+        <Nav className='custom-nav'>
+          <Link className='custom-link' to='homepage' href="#">HOME</Link> 
+          </Nav> 
+        <Nav className='custom-nav'><Link className='custom-link' to='about' href="#">ABOUT</Link></Nav>
+        <NavDropdown title="DOMAINS" className='custom-nav' id="basic-nav-dropdown">
+          <NavDropdown.Item  href="#webdev">Web Development</NavDropdown.Item>
+          <NavDropdown.Item  href="#appdev">App Development</NavDropdown.Item>
+          <NavDropdown.Item  href="#ml">Machine Learning</NavDropdown.Item>
+          <NavDropdown.Item  href="#iot">Internet of Things</NavDropdown.Item>
+          <NavDropdown.Item  href="#cv">Computer Vision</NavDropdown.Item>
+        </NavDropdown>
+        <Nav className='custom-nav'><Link className='custom-link' to='resources' href="#">RESOURCES</Link></Nav> 
+        <Nav className='custom-nav'><Link className='custom-link' href="#footer" to='footer'>CONTACT</Link></Nav> 
+      </Nav>
+    </Navbar.Collapse>
+   </Container>
+  </Navbar>
+  </nav>
+  
+  </>
+    )
+}
+
+export default Navbarss
