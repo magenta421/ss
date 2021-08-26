@@ -1,0 +1,39 @@
+@media (min-width:700px){
+    .dom-img{
+        margin: 30px;
+        border-radius: 15px !important;
+        box-shadow: rgba(0, 0, 0, 0.6) 7px 7px 7px;
+        animation: floating 2s ease-in-out infinite;
+    }
+    #webdev, #appdev, #ml, #cv, #iot{
+        padding-top: 15.5vh;
+        }
+}
+@media (max-width:600px){
+    #webdev, #appdev, #ml, #cv, #iot{
+        margin-top: 60px;
+        overflow-x: hidden !important;
+    }
+}
+.dom-img{
+    margin: 15px;
+    margin-left: 8px !important;
+    margin-top: 35px !important;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 7px 7px 7px;
+}
+.dom-intro{
+    text-align: justify;
+}
+.box{
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding-top: 3.5vh;
+    padding-bottom: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.6) 7px 7px 7px; 
+}
+.inside-box{
+    margin: 2px ;
+}
