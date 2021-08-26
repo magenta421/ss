@@ -1,0 +1,29 @@
+.custom-nav{
+    padding-left: 36px !important;
+    padding-top: 2px;
+    font-size: 22px;
+    font-weight:400;
+}
+.custom-link{
+    text-decoration: none;
+    color: white;
+}
+#basic-nav-dropdown :hover, .custom-nav :hover{
+    color: white;
+    transform: scale(1.09);
+}
+#basic-nav-dropdown{
+    padding: 0px;
+    color: white;
+}
+.linear-gradient-nav{
+    background-image: linear-gradient(#1D2671, #000);
+}
+@media (max-width:992px) {  
+    .linear-gradient-nav{
+        background-image: linear-gradient(#333, #000);
+    }
+}
+body{
+    overflow-x: hidden !important;
+}
