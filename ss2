@@ -1,0 +1,94 @@
+.aaclogo{
+   width: 290px;
+   padding-top: 3rem;
+   margin-top: 5rem;
+}
+.carousel-homepage{
+   margin-top: 75px;
+   width: 250px;
+   height: 150px;
+   border-radius: 15px;
+}
+.mobile-only-home-swiper .swiper-pagination .swiper-pagination-bullet{
+   background-color: white !important;
+}
+.pc-only-home-swiper .swiper-pagination .swiper-pagination-bullet{
+   background-color: white !important;
+}
+.mobile-only-home-swiper .swiper-pagination .swiper-pagination-bullet-active{
+   background-color: #0dcaf0 !important;
+}
+.pc-only-home-swiper .swiper-pagination .swiper-pagination-bullet-active{
+   background-color: #0dcaf0 !important;
+}
+.pc-only-home-swiper .swiper-container{
+   width: 1055px !important;
+   height: 300px;
+}
+.pc-only-home-swiper .swiper-slide-active{
+   transform: scale(1.4);
+}
+.mobile-only-home-swiper .swiper-slide-next{
+   overflow-x: hidden !important;
+}
+.mobile-only-home-swiper{
+   display: none;
+}
+@media (max-width:600px){
+   .pc-only-home-swiper{
+       display: none;
+   }
+   .aaclogo{
+       width: 220px;
+   }
+   .carousel-homepage{
+       width: 150px;
+       height: 100px;
+   }
+   .mobile-only-home-swiper .swiper-slide-active{
+       transform: scale(1.4) !important;
+   }
+   .mobile-only-home-swiper .swiper-container{
+       width: 100% !important;
+       height: 250px;
+       margin: 0px !important;
+       padding-left: 110px !important;
+       padding-right: 100px !important;
+   }
+   .mobile-only-home-swiper{
+       display: block;
+   }
+}
+body{
+   overflow-x: hidden !important;
+   margin-right: 0 !important;
+}
+video{
+   object-fit: cover;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+/* scrollbar */
+html {
+   scrollbar-color: rgb(1, 1, 1) rgb(110, 110, 110);
+}
+::-webkit-scrollbar {
+   width: 10px;
+}
+::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px grey;
+   border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+   background: rgb(110, 110, 110);
+   border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+   background: rgb(110, 110, 110);
+}
+::-webkit-scrollbar-track-piece {
+   background: rgb(240, 240, 240);
+
+}
