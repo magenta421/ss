@@ -1,0 +1,153 @@
+.pc-view-footer{
+    height: 320px;
+    background-image: linear-gradient(#333, #000);
+    overflow: hidden;
+}
+.start-footer{
+    width: 350px;
+    margin-top: 75px;
+    padding-left: 20px;
+}
+.icon-footer{
+    color: white;
+    transform: scale(2.5);
+}
+.map{
+    margin-top: 9vh;
+    padding-top: 0.8vh;
+    transform: scale(3.5);
+}
+.footer-details{
+    color: white;
+    margin-top: -2vh !important;
+}
+.phone{
+    margin-top: 3vh;
+}
+.phn-num{
+    margin-top: -2vh !important;
+}
+.mail-foot{
+    margin-top: 3vh;
+}
+.mail-foot a{
+    color: white;
+}
+.mail-foot a:hover{
+    text-decoration: none;
+    color: white;
+}
+.mail-id-foot{
+    margin-top: -3vh !important;
+}
+.footer-nav{
+    color: white;
+    margin-top: 10vh;
+}
+.footer-icons-links{
+    color: white;
+    transform: scale(3.5);
+    margin-top: 10vh;
+    margin-right: 60px;
+}
+.aac73{
+    text-align: right;
+    color: white;
+    padding-right: 110px !important;
+}
+.j324423n:hover{
+    text-decoration: none;
+    color: white;
+} 
+@media (max-width:992px){
+    .mobile-footer{
+        display: block !important;
+        height: 100vh;
+        background-color: #000;
+    }
+    .pc-view-footer{
+        display: none;
+    }
+}
+.mobile-footer{
+    display: none;
+}
+.vaksfdnv{
+    padding-left: 35px !important;
+}
+.footer-logo-start{
+    padding-top: 15vh;
+}
+.dskdnksw{
+    color: white;
+}
+.footer-icons-links-sjscd{
+    color: white;
+    transform: scale(3);
+} 
+.sdcfkwdjk{
+    color: white;
+    font-size: larger;
+}
+.j324423n{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+} 
+.kdsndkns{
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+.fadwefefdc{
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+}
+.sdfvfsd{
+    text-align: center;
+}
+.aitsura{
+    text-align: center;
+}
+.icon-footerm{
+    color: white;
+    transform: scale(6);
+    padding-top: 10px;
+    margin-left: 15px;
+}
+body{
+    overflow-x: hidden !important;
+}
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+}
+.footer-nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+#foot-icon a{
+    color: white;
+    text-decoration: none;
+}
+#foot-icon a:hover{
+    color: white;
+    text-decoration: none;
+}
+.sdcfkwdjk a{
+    color: white;
+    text-decoration: none;
+}
+.sdcfkwdjk a:hover{
+    color: white;
+    text-decoration: none;
+}
+.ghjk a{
+    color: white;
+    text-decoration: none;
+}
+.ghjk a:hover{
+    color: white;
+    text-decoration: none;
+}
